@@ -10,9 +10,11 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'nokogiri', '~> 1.6', '>= 1.6.7'
+
 group :development, :test do
   gem 'byebug'
 end
+
 group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
